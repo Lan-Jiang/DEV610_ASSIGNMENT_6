@@ -2,16 +2,15 @@ import java.util.LinkedList;
 
 public class ch16ex22_reverse {
     public static void main(String[] args) {
-        // Example usage
         LinkedList<Integer> list = new LinkedList<>();
         list.add(1);
         list.add(8);
         list.add(19);
         list.add(4);
         list.add(17);
-        System.out.println("Original List: " + list);
+
         reverse(list);
-        System.out.println("Reversed List: " + list);
+        System.out.println(list);
     }
 
     public static void reverse(LinkedList<Integer> list) {

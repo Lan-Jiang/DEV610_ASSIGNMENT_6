@@ -3,7 +3,6 @@ import java.util.LinkedList;
 public class ch16ex20_shift {
 
     public static void main(String[] args) {
-        // Example usage
         LinkedList<Integer> list = new LinkedList<>();
         list.add(10);
         list.add(31);
@@ -12,9 +11,9 @@ public class ch16ex20_shift {
         list.add(44);
         list.add(75);
         list.add(86);
-        System.out.println("Original List: " + list);
+
         shift(list);
-        System.out.println("After shifting odd-indexed elements: " + list);
+        System.out.println(list);
     }
 
     public static void shift(LinkedList<Integer> list) {

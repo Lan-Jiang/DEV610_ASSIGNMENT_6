@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class ch15ex1_lastIndexOf {
     public static void main(String[] args) {
-        // Example usage
+
         ArrayList<Integer> list = new ArrayList<>();
         list.add(1);
         list.add(18);
